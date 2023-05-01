@@ -1,4 +1,4 @@
 public interface MarsRover {
-    void Move(String commands);
-    Point2d GetCurrentPosition();
+    void move(String commands);
+    Point2d getCurrentPosition();
 }

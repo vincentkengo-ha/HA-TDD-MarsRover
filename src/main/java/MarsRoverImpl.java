@@ -5,12 +5,12 @@ public class MarsRoverImpl implements MarsRover {
     }
 
     @Override
-    public void Move(String commands){
+    public void move(String commands){
         //TODO implement
     }
 
     @Override
-    public Point2d GetCurrentPosition() {
+    public Point2d getCurrentPosition() {
         //TODO implement
         return null;
     }

@@ -1,6 +1,6 @@
 public enum Direction {
-    North,
-    Sourth,
-    East,
-    West
+    NORTH,
+    SOUTH,
+    EAST,
+    WEST
 }

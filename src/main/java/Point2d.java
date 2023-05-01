@@ -1,1 +1,1 @@
-public record Point2d(int X, int Y){}
+public record Point2d(int x, int y){}
