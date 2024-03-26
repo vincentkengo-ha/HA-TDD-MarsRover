@@ -1,7 +1,13 @@
 public class MarsRoverImpl implements MarsRover {
 
-    public MarsRoverImpl(Point2d startingPoint, Direction startingDirection){
-        //TODO implement
+    private int x;
+    private int y;
+    private Direction direction;
+
+    public MarsRoverImpl(Coordinates2D startingPosition, Direction startingDirection){
+        x = startingPosition.x();
+        y = startingPosition.y();
+        direction = startingDirection;
     }
 
     @Override
@@ -10,8 +16,7 @@ public class MarsRoverImpl implements MarsRover {
     }
 
     @Override
-    public Point2d getCurrentPosition() {
-        //TODO implement
-        return null;
+    public Coordinates2D getCurrentLocation() {
+        return new Coordinates2D(x, y);
     }
 }
