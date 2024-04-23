@@ -97,9 +97,4 @@ public class MarsRoverImpl implements MarsRover {
     public Coordinates2D getCurrentLocation() {
         return new Coordinates2D(x, y);
     }
-
-    @Override
-    public Direction getCurrentDirection() {
-        return direction;
-    }
 }
